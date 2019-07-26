@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="login.css" type="text/css" />
+	<title>Hello World!</title>
+</head>
+
+<body>
+	<div class="sidenav">
+		<div class="login-main-text">
+			<h2>Application<br> Login Page</h2>
+			<p>Login or register from here to access.</p>
+		</div>
+	</div>
+	<div class="main">
+		<div class="col-md-6 col-sm-12">
+			<div class="login-form">
+				<form>
+					<div class="form-group">
+						<label for="user">User Name</label>
+						<input name="user" type="text" class="form-control" placeholder="User Name">
+					</div>
+					<div class="form-group">
+						<label for="pass">Password</label>
+						<input name="pass" type="password" class="form-control" placeholder="Password">
+					</div>
+					<button id="btn_login" type="button" class="btn btn-black">Login</button>
+					<button id="btn_cancel" type="button" class="btn btn-secondary">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- You can also require other files to run in this process -->
+	<script src="./renderlogin.js"></script>
+</body>
+
+</html>
