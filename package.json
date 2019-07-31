@@ -7,10 +7,17 @@
     "start": "electron ."
   },
   "repository": "https://github.com/favm72/electron.git",
-  "keywords": [ "Electron" ],
+  "keywords": [
+    "Electron"
+  ],
   "author": "Fabio",
   "license": "",
   "devDependencies": {
     "electron": "^5.0.8"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }

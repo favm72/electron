@@ -57,5 +57,20 @@ ipcMain.on('login', (event, cred)=>{
 		event.reply('loginfailed');
 	}	
 });
+
+ipcMain.on('cancel', (event)=>{
+	mainWindow.loadURL("data:text/html;charset=utf-8," + encodeURI(`
+		<table>
+			<tr>
+				<td>F1</td>
+				<td>F2</td>
+			</tr>
+			<tr>
+				<td>F1</td>
+				<td>F2</td>
+			</tr>
+		</table>
+	`));	
+});
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
